@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Front End</title>
+</head>
+<body>
+    <nav>
+        <a href="/index.html">All Songs</a>
+        <a href="/add_song.html">Add Songs</a>
+        <a href="/delete.html">Delete Song</a>
+    </nav>
+    </br>
+
+    <h1>Login Page</h1>
+    <form id="lgoin" autocomplete="off">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" ></input>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="text" id="password" ></input>
+        </div>
+        <button id="loginBtn" type="button">Login</button>
+        <p id="errorMsg"></p>
+    </form>
+
+    <p>Not Reigistered? <a href="registration.html">Click Here to Register</a></p>
+
+    <button id="statusBtn">Display Status</button>
+
+    <script src="/scripts/login.js"></script>
+</body>
+</html>
